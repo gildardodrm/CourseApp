@@ -158,7 +158,7 @@ fun FirstDetailsScreenContent(navController: NavController) {
                 horizontalArrangement = Arrangement.Center
             ) {
                 Text(
-                    text = "Gestión del Estrés Laboral",
+                    text = "Curso 1",
                     fontWeight = FontWeight.SemiBold,
                     fontSize = 20.sp
                 )
