@@ -90,7 +90,7 @@ fun FirstDetailsScreenContent(navController: NavController) {
     if (dialog.value) {
         AlertDialog(
             onDismissRequest = { dialog.value = false },
-            title = { Text(text = "Llena tus datos") },
+            title = { Text(text = "Rellena tus datos") },
             text = {
                 Column(
                     verticalArrangement = Arrangement.spacedBy(8.dp)
@@ -168,11 +168,11 @@ fun FirstDetailsScreenContent(navController: NavController) {
         Spacer(modifier = Modifier.height(20.dp))
 
         Text(
-            text = "Esta plática ayudará tanto empleados como a los jefes a trabajar de una mejor manera y mejorar usando la organización, la puntualidad y la responsabilidad al entregar trabajos.",
+            text = "Descripción detallada del curso 1",
             fontSize = 20.sp
         )
         Text(
-            text = "Plataforma: Zoom",
+            text = "Plataforma: Ejemplo 1",
             fontSize = 20.sp
         )
 

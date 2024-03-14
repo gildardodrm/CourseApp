@@ -90,7 +90,7 @@ fun SecondScreenContent(navController: NavController) {
     if (dialog.value) {
         AlertDialog(
             onDismissRequest = { dialog.value = false },
-            title = { Text(text = "Llena tus datos") },
+            title = { Text(text = "Rellena tus datos") },
             text = {
                 Column(
                     verticalArrangement = Arrangement.spacedBy(8.dp)
@@ -158,7 +158,7 @@ fun SecondScreenContent(navController: NavController) {
                 horizontalArrangement = Arrangement.Center
             ) {
                 Text(
-                    text = "Salud Emocional en el Trabajo",
+                    text = "Curso 2",
                     fontWeight = FontWeight.SemiBold,
                     fontSize = 20.sp
                 )
@@ -168,11 +168,11 @@ fun SecondScreenContent(navController: NavController) {
         Spacer(modifier = Modifier.height(20.dp))
 
         Text(
-            text = "La prioridad de esta plática es mejorar el manejo de las emociones y permitir lidiar con el estrés, establecer relaciones de calidad y conseguir un equilibrio emocional en los diferentes ámbitos laborales.",
+            text = "Descripción detallada del curso 2",
             fontSize = 20.sp
         )
         Text(
-            text = "Plataforma: Zoom",
+            text = "Plataformas: Ejemplo 1, Ejemplo 2",
             fontSize = 20.sp
         )
 

@@ -63,7 +63,7 @@ fun CoursesScreen(
 fun CoursesScreenTopBar(navController: NavController) {
     TopAppBar(
         title = {
-            Text(text = "Pláticas")
+            Text(text = "Cursos")
         }
     )
 }
@@ -128,11 +128,11 @@ fun CoursesScreenContent(
                 modifier = Modifier.padding(16.dp)
             ) {
                 Text(
-                    text = "Gestión del Estrés Laboral",
+                    text = "Curso 1",
                     fontWeight = FontWeight.Bold
                 )
                 Text(
-                    text = "Esta plática ayudará tanto empleados...",
+                    text = "Descripción Curso 1...",
                 )
             }
         }
@@ -152,11 +152,11 @@ fun CoursesScreenContent(
                 modifier = Modifier.padding(16.dp)
             ) {
                 Text(
-                    text = "Salud Emocional en el Trabajo",
+                    text = "Curso 2",
                     fontWeight = FontWeight.Bold
                 )
                 Text(
-                    text = "La prioridad de esta plática es mejorar...",
+                    text = "Descripción Curso 2...",
                 )
             }
         }
@@ -176,11 +176,11 @@ fun CoursesScreenContent(
                 modifier = Modifier.padding(16.dp)
             ) {
                 Text(
-                    text = "Mindfulness en el Trabajo",
+                    text = "Curso 3",
                     fontWeight = FontWeight.Bold
                 )
                 Text(
-                    text = "Esta plática ayudara a los trabajadores...",
+                    text = "Descripción Curso 3...",
                 )
             }
         }

@@ -90,7 +90,7 @@ fun ThirdScreenContent(navController: NavController) {
     if (dialog.value) {
         AlertDialog(
             onDismissRequest = { dialog.value = false },
-            title = { Text(text = "Llena tus datos") },
+            title = { Text(text = "Rellena tus datos") },
             text = {
                 Column(
                     verticalArrangement = Arrangement.spacedBy(8.dp)
@@ -158,7 +158,7 @@ fun ThirdScreenContent(navController: NavController) {
                 horizontalArrangement = Arrangement.Center
             ) {
                 Text(
-                    text = "Mindfulness en el Trabajo",
+                    text = "Curso 3",
                     fontWeight = FontWeight.SemiBold,
                     fontSize = 20.sp
                 )
@@ -168,11 +168,11 @@ fun ThirdScreenContent(navController: NavController) {
         Spacer(modifier = Modifier.height(20.dp))
 
         Text(
-            text = "Esta plática ayudará a los trabajadores a reforzar el bienestar mental en el trabajo y la capacidad de gestión del estrés, llevar a acabo prácticas enfocadas a potenciar la atención y la capacidad del ser conscientes de nosotros mismos en el ambiente que nos rodea.",
+            text = "Descripción detallada del curso 3",
             fontSize = 20.sp
         )
         Text(
-            text = "Plataforma: Zoom",
+            text = "Plataforma: Ejemplo 1",
             fontSize = 20.sp
         )
 
